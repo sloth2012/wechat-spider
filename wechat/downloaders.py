@@ -214,7 +214,7 @@ class SeleniumDownloaderBackend(object):
         elems_abstracts = tree.xpath("//p[@class='weui_media_desc']")
         abstracts = [item.text.strip() if item.text else '' for item in elems_abstracts]
         links = []
-        for idx, item in enumerate(elems[:10]):
+        for idx, item in enumerate(elems):
             title = item
             print title
             if not title:

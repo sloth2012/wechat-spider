@@ -106,7 +106,7 @@ NORMAL_RULES = [
     "rules": [
       {
         "kind": "xpath",
-        "data": "//span[@id='sg_readNum3']/text()"
+        "data": "//span[@id='readNum3']/text()"
       },
       {
         "kind": "python",
@@ -119,7 +119,7 @@ NORMAL_RULES = [
     "rules": [
       {
         "kind":"xpath",
-        "data":"//span[@id='sg_likeNum3']/text()"
+        "data":"//span[@id='likeNum3']/text()"
       },
       {
         "kind":"python",
