@@ -1,3 +1,10 @@
+<Script type="text/javascript">
+function getUrl(){
+   var domain = window.location.hostname;
+   var url = "http://" + domain + ":9001";
+   window.open(url);
+}
+</Script>
 <nav class="navbar navbar-default">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -26,7 +33,7 @@
           <li><a>禁爬数: {{ antispider }}</a></li>
           <li><a>代理状态: {{ proxy_status }}</a></li>
           <li><a href="/admin/">后台管理</a></li>
-          <li><a target="_blank" href="http://supervisor-ops.bowenpay.com/">进程控制</a></li>
+          <li><a target="_blank" href="javascript:void(0);" onclick="getUrl()">进程控制</a></li>
       </ul>
       {% endif %}
     </div><!-- /.navbar-collapse -->
