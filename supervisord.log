@@ -1,0 +1,84 @@
+2018-03-01 12:25:14,988 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-03-01 12:25:14,990 INFO daemonizing the supervisord process
+2018-03-01 12:25:14,990 INFO supervisord started with pid 25865
+2018-03-01 12:25:15,992 INFO spawned: 'wechatspider_processor' with pid 25894
+2018-03-01 12:25:15,994 INFO spawned: 'wechatspider_scheduler' with pid 25895
+2018-03-01 12:25:15,995 INFO spawned: 'wechatspider.0fenbei.com' with pid 25896
+2018-03-01 12:25:15,995 INFO spawnerr: unknown error making dispatchers for 'uwsgi_wechatspider.0fenbei.com': EISDIR
+2018-03-01 12:25:15,996 INFO spawned: '1' with pid 25897
+2018-03-01 12:25:15,997 INFO spawned: '0' with pid 25898
+2018-03-01 12:25:15,998 INFO spawned: '1' with pid 25899
+2018-03-01 12:25:15,999 INFO spawned: '0' with pid 25900
+2018-03-01 12:25:16,379 INFO success: wechatspider_processor entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 12:25:16,379 INFO success: wechatspider_scheduler entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 12:25:16,379 INFO success: wechatspider.0fenbei.com entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 12:25:16,379 INFO success: 1 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 12:25:16,379 INFO success: 0 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 12:25:16,379 INFO success: 1 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 12:25:16,379 INFO success: 0 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 12:25:17,400 INFO spawnerr: unknown error making dispatchers for 'uwsgi_wechatspider.0fenbei.com': EISDIR
+2018-03-01 12:25:19,403 INFO spawnerr: unknown error making dispatchers for 'uwsgi_wechatspider.0fenbei.com': EISDIR
+2018-03-01 12:25:22,407 INFO spawnerr: unknown error making dispatchers for 'uwsgi_wechatspider.0fenbei.com': EISDIR
+2018-03-01 12:25:22,407 INFO gave up: uwsgi_wechatspider.0fenbei.com entered FATAL state, too many start retries too quickly
+2018-03-01 13:31:24,871 WARN received SIGTERM indicating exit request
+2018-03-01 13:31:24,871 INFO waiting for wechatspider_processor, wechatspider_scheduler, wechatspider.0fenbei.com, 1, 0, 1, 0 to die
+2018-03-01 13:31:24,873 WARN killing '1' (25899) with SIGKILL
+2018-03-01 13:31:24,873 WARN killing '0' (25900) with SIGKILL
+2018-03-01 13:31:24,873 INFO stopped: 0 (terminated by SIGKILL)
+2018-03-01 13:31:24,874 INFO stopped: 1 (terminated by SIGKILL)
+2018-03-01 13:31:24,874 WARN killing '1' (25897) with SIGKILL
+2018-03-01 13:31:24,874 WARN killing '0' (25898) with SIGKILL
+2018-03-01 13:31:24,875 WARN killing '1' (25897) with SIGKILL
+2018-03-01 13:31:24,875 WARN killing '0' (25898) with SIGKILL
+2018-03-01 13:31:24,875 INFO stopped: 0 (terminated by SIGKILL)
+2018-03-01 13:31:24,876 WARN killing '1' (25897) with SIGKILL
+2018-03-01 13:31:24,876 INFO stopped: 1 (terminated by SIGKILL)
+2018-03-01 13:31:25,879 WARN killing 'wechatspider.0fenbei.com' (25896) with SIGKILL
+2018-03-01 13:31:25,879 INFO stopped: wechatspider.0fenbei.com (terminated by SIGKILL)
+2018-03-01 13:31:25,879 WARN killing 'wechatspider_scheduler' (25895) with SIGKILL
+2018-03-01 13:31:25,881 WARN killing 'wechatspider_scheduler' (25895) with SIGKILL
+2018-03-01 13:31:25,881 INFO stopped: wechatspider_scheduler (terminated by SIGKILL)
+2018-03-01 13:31:25,884 WARN killing 'wechatspider_processor' (25894) with SIGKILL
+2018-03-01 13:31:25,884 INFO stopped: wechatspider_processor (terminated by SIGKILL)
+2018-03-01 13:31:51,473 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-03-01 13:31:51,474 INFO daemonizing the supervisord process
+2018-03-01 13:31:51,474 INFO supervisord started with pid 10520
+2018-03-01 13:31:52,477 INFO spawned: 'wechatspider_processor' with pid 10548
+2018-03-01 13:31:52,478 INFO spawned: 'wechatspider_scheduler' with pid 10549
+2018-03-01 13:31:52,479 INFO spawned: 'wechatspider.0fenbei.com' with pid 10550
+2018-03-01 13:31:52,480 INFO spawned: 'uwsgi_wechatspider.0fenbei.com' with pid 10551
+2018-03-01 13:31:52,481 INFO spawned: '1' with pid 10552
+2018-03-01 13:31:52,482 INFO spawned: '0' with pid 10553
+2018-03-01 13:31:52,483 INFO spawned: '1' with pid 10554
+2018-03-01 13:31:52,484 INFO spawned: '0' with pid 10555
+2018-03-01 13:31:52,484 INFO success: wechatspider_processor entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:31:52,484 INFO success: wechatspider_scheduler entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:31:52,484 INFO success: wechatspider.0fenbei.com entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:31:52,485 INFO success: uwsgi_wechatspider.0fenbei.com entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:31:52,485 INFO success: 1 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:31:52,485 INFO success: 0 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:31:52,485 INFO success: 1 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:31:52,485 INFO success: 0 entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-01 13:37:37,025 WARN received SIGTERM indicating exit request
+2018-03-01 13:37:37,025 INFO waiting for wechatspider_processor, wechatspider_scheduler, wechatspider.0fenbei.com, uwsgi_wechatspider.0fenbei.com, 1, 0, 1, 0 to die
+2018-03-01 13:37:37,027 WARN killing '1' (10554) with SIGKILL
+2018-03-01 13:37:37,027 WARN killing '0' (10555) with SIGKILL
+2018-03-01 13:37:37,027 INFO stopped: 1 (terminated by SIGKILL)
+2018-03-01 13:37:37,027 INFO stopped: 0 (terminated by SIGKILL)
+2018-03-01 13:37:37,028 WARN killing '1' (10552) with SIGKILL
+2018-03-01 13:37:37,028 WARN killing '0' (10553) with SIGKILL
+2018-03-01 13:37:37,030 WARN killing '1' (10552) with SIGKILL
+2018-03-01 13:37:37,030 WARN killing '0' (10553) with SIGKILL
+2018-03-01 13:37:37,030 INFO stopped: 1 (terminated by SIGKILL)
+2018-03-01 13:37:37,030 INFO stopped: 0 (terminated by SIGKILL)
+2018-03-01 13:37:37,030 WARN killing 'uwsgi_wechatspider.0fenbei.com' (10551) with SIGKILL
+2018-03-01 13:37:37,031 WARN killing 'uwsgi_wechatspider.0fenbei.com' (10551) with SIGKILL
+2018-03-01 13:37:37,031 INFO stopped: uwsgi_wechatspider.0fenbei.com (terminated by SIGKILL)
+2018-03-01 13:37:37,031 WARN killing 'wechatspider.0fenbei.com' (10550) with SIGKILL
+2018-03-01 13:37:37,033 WARN killing 'wechatspider.0fenbei.com' (10550) with SIGKILL
+2018-03-01 13:37:37,033 INFO stopped: wechatspider.0fenbei.com (terminated by SIGKILL)
+2018-03-01 13:37:37,033 WARN killing 'wechatspider_scheduler' (10549) with SIGKILL
+2018-03-01 13:37:37,034 WARN killing 'wechatspider_scheduler' (10549) with SIGKILL
+2018-03-01 13:37:37,035 INFO stopped: wechatspider_scheduler (terminated by SIGKILL)
+2018-03-01 13:37:37,036 WARN killing 'wechatspider_processor' (10548) with SIGKILL
+2018-03-01 13:37:37,036 INFO stopped: wechatspider_processor (terminated by SIGKILL)
